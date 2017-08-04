@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Alert" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="82f-dd-OnB">
+                                <rect key="frame" x="102" y="96" width="171" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="171" id="KSv-Ht-uDF"/>
+                                </constraints>
+                                <state key="normal" title="Show Single Button Alert"/>
+                                <connections>
+                                    <action selector="showSingleButtonAlert:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fSq-pE-j2Z"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Al4-iA-mxh">
+                                <rect key="frame" x="99" y="318" width="177" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="177" id="ZWa-EH-pf1"/>
+                                </constraints>
+                                <state key="normal" title="Show Double Button Alert"/>
+                                <connections>
+                                    <action selector="showDoubleButtonAlert:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Gq8-Op-iHE"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BkS-KC-eN6">
+                                <rect key="frame" x="104" y="530" width="167" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="167" id="Dng-aT-hR9"/>
+                                </constraints>
+                                <state key="normal" title="Show Triple Button Alert"/>
+                                <connections>
+                                    <action selector="showTripleButtonAlert:" destination="BYZ-38-t0r" eventType="touchUpInside" id="F3Q-xc-Voh"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="BkS-KC-eN6" secondAttribute="bottom" constant="107" id="6D8-gx-Tat"/>
+                            <constraint firstItem="BkS-KC-eN6" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="F5l-bl-ehb"/>
+                            <constraint firstItem="Al4-iA-mxh" firstAttribute="top" secondItem="82f-dd-OnB" secondAttribute="bottom" constant="192" id="NON-mT-sgx"/>
+                            <constraint firstItem="Al4-iA-mxh" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Szv-y9-WfN"/>
+                            <constraint firstItem="BkS-KC-eN6" firstAttribute="top" secondItem="Al4-iA-mxh" secondAttribute="bottom" constant="182" id="WgA-zP-FTC"/>
+                            <constraint firstItem="82f-dd-OnB" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="76" id="fCb-q8-K11"/>
+                            <constraint firstItem="82f-dd-OnB" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="flH-Q1-eLt"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="137.18140929535232"/>
+        </scene>
+    </scenes>
+</document>
