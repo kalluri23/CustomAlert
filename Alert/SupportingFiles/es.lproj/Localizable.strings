@@ -1,0 +1,15 @@
+/* alert title */
+"Content Transfer" = "Contento Transferado";
+
+/* teritiary button */
+"Give me" = "Dame";
+
+/* secondary button */
+"Please" = "Por favor";
+
+/* alert body */
+"There are still some app which you have not installed. Do you want to keep them for next time ?" = "Todavía hay alguna aplicación que no has instalado. ¿Quieres conservarlos para la próxima vez?";
+
+/* primary button */
+"Yes" = "Sí";
+

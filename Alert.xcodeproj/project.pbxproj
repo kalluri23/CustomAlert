@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A637CFC11F4E14D400CF6A85 /* CTVerizonAlertViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A637CFC31F4E14D400CF6A85 /* CTVerizonAlertViewController.xib */; };
+		A637CFC91F4E192B00CF6A85 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A637CFCB1F4E192B00CF6A85 /* InfoPlist.strings */; };
+		A637CFCF1F4E1F2D00CF6A85 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = A637CFD11F4E1F2D00CF6A85 /* Localizable.strings */; };
 		A6AE8CA81F3362AA00428F9A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6AE8CA71F3362AA00428F9A /* AppDelegate.swift */; };
 		A6AE8CAA1F3362AA00428F9A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6AE8CA91F3362AA00428F9A /* ViewController.swift */; };
 		A6AE8CAD1F3362AA00428F9A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6AE8CAB1F3362AA00428F9A /* Main.storyboard */; };
@@ -14,12 +17,18 @@
 		A6AE8CB21F3362AA00428F9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6AE8CB01F3362AA00428F9A /* LaunchScreen.storyboard */; };
 		A6AE8CBE1F33645B00428F9A /* CTVerizonAlertManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6AE8CBA1F33645B00428F9A /* CTVerizonAlertManager.swift */; };
 		A6AE8CBF1F33645B00428F9A /* CTVerizonAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6AE8CBB1F33645B00428F9A /* CTVerizonAlertViewController.swift */; };
-		A6AE8CC01F33645B00428F9A /* CTVerizonAlertViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6AE8CBC1F33645B00428F9A /* CTVerizonAlertViewController.xib */; };
 		A6AE8CC11F33645B00428F9A /* CTVerizonAlertViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6AE8CBD1F33645B00428F9A /* CTVerizonAlertViewModel.swift */; };
 		A6AE8CC41F3398FF00428F9A /* CTAlertButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6AE8CC31F3398FF00428F9A /* CTAlertButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A637CFC21F4E14D400CF6A85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/CTVerizonAlertViewController.xib; sourceTree = "<group>"; };
+		A637CFC41F4E165100CF6A85 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/CTVerizonAlertViewController.strings; sourceTree = "<group>"; };
+		A637CFC51F4E165100CF6A85 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Main.strings; sourceTree = "<group>"; };
+		A637CFC61F4E165100CF6A85 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		A637CFCA1F4E192B00CF6A85 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A637CFD01F4E1F2D00CF6A85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A637CFD21F4E207800CF6A85 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
 		A6AE8CA41F3362AA00428F9A /* Alert.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Alert.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6AE8CA71F3362AA00428F9A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A6AE8CA91F3362AA00428F9A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -29,7 +38,6 @@
 		A6AE8CB31F3362AA00428F9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A6AE8CBA1F33645B00428F9A /* CTVerizonAlertManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CTVerizonAlertManager.swift; sourceTree = "<group>"; };
 		A6AE8CBB1F33645B00428F9A /* CTVerizonAlertViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CTVerizonAlertViewController.swift; sourceTree = "<group>"; };
-		A6AE8CBC1F33645B00428F9A /* CTVerizonAlertViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CTVerizonAlertViewController.xib; sourceTree = "<group>"; };
 		A6AE8CBD1F33645B00428F9A /* CTVerizonAlertViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CTVerizonAlertViewModel.swift; sourceTree = "<group>"; };
 		A6AE8CC31F3398FF00428F9A /* CTAlertButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CTAlertButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -45,6 +53,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A637CFCC1F4E1EE700CF6A85 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				A637CFD11F4E1F2D00CF6A85 /* Localizable.strings */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
 		A6AE8C9B1F3362A900428F9A = {
 			isa = PBXGroup;
 			children = (
@@ -64,6 +80,7 @@
 		A6AE8CA61F3362AA00428F9A /* Alert */ = {
 			isa = PBXGroup;
 			children = (
+				A637CFCB1F4E192B00CF6A85 /* InfoPlist.strings */,
 				A6AE8CB91F3363B800428F9A /* AlertManager */,
 				A6AE8CA71F3362AA00428F9A /* AppDelegate.swift */,
 				A6AE8CA91F3362AA00428F9A /* ViewController.swift */,
@@ -71,6 +88,7 @@
 				A6AE8CAE1F3362AA00428F9A /* Assets.xcassets */,
 				A6AE8CB01F3362AA00428F9A /* LaunchScreen.storyboard */,
 				A6AE8CB31F3362AA00428F9A /* Info.plist */,
+				A637CFCC1F4E1EE700CF6A85 /* SupportingFiles */,
 			);
 			path = Alert;
 			sourceTree = "<group>";
@@ -80,7 +98,7 @@
 			children = (
 				A6AE8CBA1F33645B00428F9A /* CTVerizonAlertManager.swift */,
 				A6AE8CBB1F33645B00428F9A /* CTVerizonAlertViewController.swift */,
-				A6AE8CBC1F33645B00428F9A /* CTVerizonAlertViewController.xib */,
+				A637CFC31F4E14D400CF6A85 /* CTVerizonAlertViewController.xib */,
 				A6AE8CBD1F33645B00428F9A /* CTVerizonAlertViewModel.swift */,
 				A6AE8CC31F3398FF00428F9A /* CTAlertButton.swift */,
 			);
@@ -131,6 +149,7 @@
 			knownRegions = (
 				en,
 				Base,
+				es,
 			);
 			mainGroup = A6AE8C9B1F3362A900428F9A;
 			productRefGroup = A6AE8CA51F3362AA00428F9A /* Products */;
@@ -147,10 +166,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A6AE8CC01F33645B00428F9A /* CTVerizonAlertViewController.xib in Resources */,
+				A637CFC11F4E14D400CF6A85 /* CTVerizonAlertViewController.xib in Resources */,
+				A637CFCF1F4E1F2D00CF6A85 /* Localizable.strings in Resources */,
 				A6AE8CB21F3362AA00428F9A /* LaunchScreen.storyboard in Resources */,
 				A6AE8CAF1F3362AA00428F9A /* Assets.xcassets in Resources */,
 				A6AE8CAD1F3362AA00428F9A /* Main.storyboard in Resources */,
+				A637CFC91F4E192B00CF6A85 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -173,10 +194,37 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		A637CFC31F4E14D400CF6A85 /* CTVerizonAlertViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A637CFC21F4E14D400CF6A85 /* Base */,
+				A637CFC41F4E165100CF6A85 /* es */,
+			);
+			name = CTVerizonAlertViewController.xib;
+			sourceTree = "<group>";
+		};
+		A637CFCB1F4E192B00CF6A85 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A637CFCA1F4E192B00CF6A85 /* es */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A637CFD11F4E1F2D00CF6A85 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A637CFD01F4E1F2D00CF6A85 /* Base */,
+				A637CFD21F4E207800CF6A85 /* es */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		A6AE8CAB1F3362AA00428F9A /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				A6AE8CAC1F3362AA00428F9A /* Base */,
+				A637CFC51F4E165100CF6A85 /* es */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -185,6 +233,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				A6AE8CB11F3362AA00428F9A /* Base */,
+				A637CFC61F4E165100CF6A85 /* es */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -196,6 +245,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -247,6 +297,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";

@@ -22,7 +22,7 @@ class ViewController: UIViewController {
 
     @IBAction func showSingleButtonAlert(_ sender: UIButton) {
         
-        let alertModel = CTVerizonAlertViewModel(alertStyle: .singleButton, alertinfoImage: UIImage(named: "info"), alertTitle: "Content Transfer", alertBody: "There are still some app which you have not installed. Do you want to keep them for next time ?", alertPrimaryButtonTitle: "Yes", primaryButtonAction: {(alertVC: CTVerizonAlertViewController) in
+        let alertModel = CTVerizonAlertViewModel(alertStyle: .singleButton, alertinfoImage: UIImage(named: "info"), alertTitle:NSLocalizedString("Content Transfer", comment: "alert title"), alertBody: NSLocalizedString("There are still some app which you have not installed. Do you want to keep them for next time ?", comment: "alert body"), alertPrimaryButtonTitle: NSLocalizedString("Yes", comment: "primary button"), primaryButtonAction: {(alertVC: CTVerizonAlertViewController) in
             CTVerizonAlertManager.dismissVerizonAlert(alertViewController: alertVC)
         }, alertSecondaryButtonTitle: nil, secondaryButtonAction: {(alertVC: CTVerizonAlertViewController) in
             CTVerizonAlertManager.dismissVerizonAlert(alertViewController: alertVC)
@@ -37,9 +37,9 @@ class ViewController: UIViewController {
     
     @IBAction func showDoubleButtonAlert(_ sender: UIButton) {
         
-        let alertModel = CTVerizonAlertViewModel(alertStyle: .doubleButton, alertinfoImage: UIImage(named: "info"), alertTitle: "Content Transfer", alertBody: "There are still some app which you have not installed. Do you want to keep them for next time ?", alertPrimaryButtonTitle: "Yes", primaryButtonAction: {(alertVC: CTVerizonAlertViewController) in
+        let alertModel = CTVerizonAlertViewModel(alertStyle: .doubleButton, alertinfoImage: UIImage(named: "info"), alertTitle: NSLocalizedString("Content Transfer", comment: "alert title"), alertBody: NSLocalizedString("There are still some app which you have not installed. Do you want to keep them for next time ?", comment: "alert body"), alertPrimaryButtonTitle: NSLocalizedString("Yes", comment: "primary button"), primaryButtonAction: {(alertVC: CTVerizonAlertViewController) in
             CTVerizonAlertManager.dismissVerizonAlert(alertViewController: alertVC)
-        }, alertSecondaryButtonTitle: "Please", secondaryButtonAction: {(alertVC: CTVerizonAlertViewController) in
+        }, alertSecondaryButtonTitle: NSLocalizedString("Please", comment: "secondary button"), secondaryButtonAction: {(alertVC: CTVerizonAlertViewController) in
             CTVerizonAlertManager.dismissVerizonAlert(alertViewController: alertVC)
         }, alertTeritioryButtonTitle: nil, teritioryButtonAction: {(alertVC: CTVerizonAlertViewController) in
             CTVerizonAlertManager.dismissVerizonAlert(alertViewController: alertVC)
@@ -52,11 +52,11 @@ class ViewController: UIViewController {
     
     @IBAction func showTripleButtonAlert(_ sender: UIButton) {
         
-        let alertModel = CTVerizonAlertViewModel(alertStyle: .tripleButton, alertinfoImage: UIImage(named: "info"), alertTitle: "Content Transfer", alertBody: "There are still some app which you have not installed. Do you want to keep them for next time ?", alertPrimaryButtonTitle: "Yes", primaryButtonAction: {(alertVC: CTVerizonAlertViewController) in
+        let alertModel = CTVerizonAlertViewModel(alertStyle: .tripleButton, alertinfoImage: UIImage(named: "info"), alertTitle: "Content Transfer", alertBody: "There are still some app which you have not installed. Do you want to keep them for next time ?", alertPrimaryButtonTitle: NSLocalizedString("Yes", comment: "primary button"), primaryButtonAction: {(alertVC: CTVerizonAlertViewController) in
             CTVerizonAlertManager.dismissVerizonAlert(alertViewController: alertVC)
-        }, alertSecondaryButtonTitle: "Please", secondaryButtonAction: {(alertVC: CTVerizonAlertViewController) in
+        }, alertSecondaryButtonTitle: NSLocalizedString("Please", comment: "secondary button"), secondaryButtonAction: {(alertVC: CTVerizonAlertViewController) in
             CTVerizonAlertManager.dismissVerizonAlert(alertViewController: alertVC)
-        }, alertTeritioryButtonTitle: "Give me", teritioryButtonAction: {(alertVC: CTVerizonAlertViewController) in
+        }, alertTeritioryButtonTitle: NSLocalizedString("Give me", comment: "teritiary button"), teritioryButtonAction: {(alertVC: CTVerizonAlertViewController) in
             CTVerizonAlertManager.dismissVerizonAlert(alertViewController: alertVC)
         })
         
